@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.4rem 2rem;
+    background: #282c34;
+    color: white;
+    font-size: 1.3rem;
+    align-items: center;
+}
+
+.cart {
+    position: relative;
+}
+
+.cart img {
+    width: 50px;
+}
+
+.cart div {
+    position: absolute;
+    content: '';
+    top: -20px;
+    right: 25px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #e34c1d;
+}
