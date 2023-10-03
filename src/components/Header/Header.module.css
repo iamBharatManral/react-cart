@@ -2,8 +2,8 @@
     display: flex;
     justify-content: space-between;
     padding: 1.4rem 2rem;
-    background: #282c34;
-    color: white;
+    background: wheat;
+    color: brown;
     font-size: 1.3rem;
     align-items: center;
 }
@@ -17,11 +17,20 @@
 }
 
 .cart div {
+    font-family: SanaSerif, sans-serif;
     position: absolute;
     content: '';
     top: -20px;
-    right: 25px;
-    font-size: 3rem;
+    right: 30px;
+    font-size: 1.5rem;
     font-weight: bold;
-    color: #e34c1d;
+    color: white;
+    background: dodgerblue;
+    width: 40px;
+    height: 40px;
+    padding: 0.5em;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

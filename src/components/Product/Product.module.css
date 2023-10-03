@@ -1,0 +1,24 @@
+.product {
+    display: flex;
+    gap: 1rem;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.4rem;
+}
+
+.product img{
+    width: 100px;
+}
+
+.product button {
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: dodgerblue;
+    background: transparent;
+    align-self: flex-start;
+}

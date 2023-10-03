@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from './Header.module.css'
 import cart from '../../assets/images/cart.svg'
-const Header = () => {
+const Header = ({totalItems}) => {
     return (
         <header className={styles.header}>
             <h1>Cartducer</h1>
             <div className={styles.cart}>
-                <div>0</div>
+                <div>{totalItems}</div>
                 <img src={cart} alt="cart"/>
             </div>
         </header>
