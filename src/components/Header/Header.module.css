@@ -1,7 +1,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 1.4rem 2rem;
+    padding: 1.4rem;
     background: wheat;
     color: brown;
     font-size: 1.3rem;
@@ -39,4 +39,5 @@
     width: 35px;
     height: 35px;
     cursor: pointer;
+    margin-right: 3.8rem;
 }
